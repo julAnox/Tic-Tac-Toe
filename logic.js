@@ -13,7 +13,6 @@ function render() {
     const items = document.querySelectorAll('.item');
     items.forEach((item, index) => {
         item.textContent = board[index];
-        // Добавляем стили для крестиков и ноликов
         if (board[index] === 'X') {
             item.style.color = 'black';
         } else if (board[index] === 'O') {
