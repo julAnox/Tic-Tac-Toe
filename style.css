@@ -70,9 +70,10 @@ body{
     margin-top: 665px;
 }
 
-.button:hover, .button:focus {
-    color: #808080;
+.button:hover{
     transform: translateY(-4px);
 }
 
- 
+.button:hover{
+    color: #808080;
+}
