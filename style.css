@@ -80,3 +80,14 @@ body{
 .item.winning {
     text-decoration: line-through;
 }
+
+#status {
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
